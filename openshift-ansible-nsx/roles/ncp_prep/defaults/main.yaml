@@ -1,8 +1,8 @@
 ---
 # update the variable values below before running the ncp_prep role
-cni_url: <cni_url>
-ovs_url: <ovs_url>
-ovs_kmod1_url: <ovs_kmod1_url>
-ovs_kmod2_url: <ovs_kmod2_url>
+cni_url: http://52.59.159.238/nsx-cni-2.1.3.8356796-1.x86_64.rpm
+ovs_url: http://52.59.159.238/openvswitch-2.8.1.7345072-1.x86_64.rpm
+ovs_kmod1_url: http://52.59.159.238/openvswitch-kmod-2.8.1.7345072-1.el7.x86_64.rpm
+ovs_kmod2_url: http://52.59.159.238/kmod-openvswitch-2.8.1.7345072-1.el7.x86_64.rpm
 uplink_port: <uplink_port>
-ncp_image_url: <image_url>
+ncp_image_url: http://52.59.159.238/nsx-ncp-rhel-2.1.3.8356796.tar

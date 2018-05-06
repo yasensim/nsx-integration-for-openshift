@@ -2,7 +2,7 @@
 perform_nsx_config: True
 nsx_config_script_path: <nsx_config_script_path>
 # If use_cert is set to true, you can skip setting nsx user and password
-nsx_api_user: <nsx_user_name>
+nsx_api_user: admin
 nsx_api_password: <nsx_password>
 use_cert: false
 # Uncomment and set correct path for the following two lines if use_cert is set to true
